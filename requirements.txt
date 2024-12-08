@@ -1,6 +1,7 @@
 cmake
 fairscale>=0.4.4
-git+https://github.com/WASasquatch/img2texture.git
+#git+https://github.com/WASasquatch/img2texture.git
+-e ./img2texture/
 gitpython
 imageio
 joblib
@@ -9,7 +10,8 @@ numba
 numpy<1.24>=1.18
 opencv-python-headless[ffmpeg]<=4.7.0.72
 pilgram
-git+https://github.com/WASasquatch/ffmpy.git
+#git+https://github.com/WASasquatch/ffmpy.git
+-e ./ffmpy/
 rembg
 scikit-image==0.20.0
 scikit-learn
